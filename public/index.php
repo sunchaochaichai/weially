@@ -9,7 +9,8 @@ if(SHOW_ERR){
 }
 
 try {
-
+         
+        
 	$config = new \Phalcon\Config\Adapter\Ini(__DIR__.'/../app/config/config.ini');
 	$paymentConfig = new \Phalcon\Config\Adapter\Ini(__DIR__ . '/../app/config/payment.ini');
     //Register an autoloader
